@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!--<external-path
+        name="ImageOpenExample"
+        path="ImageOpenExample/" />-->
+    <!--external app storage, By defining paths like this, I allow the FileProvider
+   to share all files that are inside the app’s internal files directory. Context.getExternalFilesDir(null)-->
+    <external-files-path
+        name="external_files_dir"
+        path="." />
+    <files-path
+        name="file"
+        path="."/>
+    <external-path
+        name="external_files"
+        path="."/>
+</paths>
